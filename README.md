@@ -1,16 +1,47 @@
-# React + Vite
+# Digimon Memory Game 👾
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Static Badge](https://memory-game-sooty-delta.vercel.app/)
+[Visit Live Demo](LINK_DEMO_KAMU_DI_SINI)
 
-Currently, two official plugins are available:
+A fun and interactive memory card game built with **React** and **Tailwind CSS**. The goal is simple: click every Digimon card exactly once. If you click the same card twice, your score resets!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+* **Dynamic Data**: Fetches real-time Digimon data from the [Digimon API](https://digimon-api.vercel.app/).
+* **Shuffle Logic**: Implements the **Fisher-Yates Shuffle Algorithm** to randomize card positions after every click.
+* **Score Tracking**: Displays your current score and persists your **Best Score** during the session.
+* **Responsive UI**: Styled with Tailwind CSS for a modern and mobile-friendly experience.
+* **Win Condition**: A "Congratulations" message and a "Play Again" button appear when you successfully click all cards.
 
-## React Compiler
+## 🛠️ Tech Stack
+* **Frontend**: React.js ⚛️
+* **Styling**: Tailwind CSS 🎨
+* **State Management**: React Hooks (`useState`, `useEffect`) 🧠
+* **API**: [Digimon API](https://digimon-api.vercel.app/) 🦖
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## 📸 Preview
+![Game Screenshot](./src/assets/pic1.png) 
+*(Ganti link ini dengan screenshot game kamu setelah di-deploy)*
 
-## Expanding the ESLint configuration
+## 🏁 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1.  **Clone the repository**
+    ```bash
+    git clone [https://github.com/USERNAME/REPO_NAME.git](https://github.com/USERNAME/REPO_NAME.git)
+    ```
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
+3.  **Run the application**
+    ```bash
+    npm run dev
+    ```
+
+## 🧠 Lessons Learned
+In this project, I deepened my understanding of:
+* Managing complex states in React, including functional updates.
+* Handling asynchronous API calls with `useEffect`.
+* Implementing algorithmic logic (Shuffling) within a UI framework.
+* Applying clean code principles through **Component Decomposition**.
+
+---
