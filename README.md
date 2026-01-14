@@ -20,7 +20,6 @@ A fun and interactive memory card game built with **React** and **Tailwind CSS**
 
 ## 📸 Preview
 ![Game Screenshot](./src/assets/pic1.png) 
-*(Ganti link ini dengan screenshot game kamu setelah di-deploy)*
 
 ## 🏁 Getting Started
 
