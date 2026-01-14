@@ -1,7 +1,6 @@
 # Digimon Memory Game 👾
 
-![Static Badge](https://memory-game-sooty-delta.vercel.app/)
-[Visit Live Demo](LINK_DEMO_KAMU_DI_SINI)
+[Live Demo 🚀](https://memory-game-sooty-delta.vercel.app/)
 
 A fun and interactive memory card game built with **React** and **Tailwind CSS**. The goal is simple: click every Digimon card exactly once. If you click the same card twice, your score resets!
 
